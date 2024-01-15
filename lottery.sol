@@ -1,7 +1,9 @@
 // SPDX-Licence-Identifier: UNLICENSED
 pragma solidity ^0.8.11;
 
-contract Lottery {
+import "@chainlink/contracts/src/v0.8/VRFConsumerBase.sol";
+
+contract Lottery is VRFConsumerBase {
     address public owner;
     address payable[] public players;
     uint public lotteryId;
