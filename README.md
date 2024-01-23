@@ -7,4 +7,5 @@ if you wish to deploy - use + test on remix.ethereum.org
 
 this is a basic lottery smart ontract and would be easily predicted
 please use at your own risk! <br>
+<br>
 Happy coding!
